@@ -87,3 +87,5 @@ class OrderPlaced(models.Model):
     ordered_date = models.DateTimeField(auto_now_add=True)
     status = models.CharField(choices=STATUS_CHOICES , max_length=50, default='Pending')
 
+
+
